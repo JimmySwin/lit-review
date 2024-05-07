@@ -1,0 +1,85 @@
+{
+    "papers": [
+      {
+        "id": "paper1",
+        "title": "Deep Learning for Computer Vision: A Brief Review",
+        "authors": ["Voulodimos, A.", "Doulamis, N.", "Doulamis, A.", "Protopapadakis, E."],
+        "year": 2018,
+        "doi": "https://doi.org/10.1155/2018/7068349",
+        "references": []
+      },
+      {
+        "id": "paper2",
+        "title": "Image recognition based on deep learning",
+        "authors": ["Wu, M.", "Chen, L."],
+        "year": 2015,
+        "doi": "https://doi.org/10.1109/CAC.2015.7382560",
+        "references": []
+      },
+      {
+        "id": "paper3",
+        "title": "Convolutional Neural Network (CNN) for image detection and recognition",
+        "authors": ["Chauhan, R.", "Ghanshala, K. K.", "Joshi, R. C."],
+        "year": 2018,
+        "doi": "https://doi.org/10.1109/ICSCCC.2018.8703316",
+        "references": []
+      },
+      {
+        "id": "paper4",
+        "title": "An ensemble of convolutional neural networks using wavelets for image classification",
+        "authors": ["Williams, T.", "Li, R."],
+        "year": 2018,
+        "doi": "https://doi.org/10.4236/jsea.2018.112004",
+        "references": []
+      },
+      {
+        "id": "paper5",
+        "title": "A method for improving CNN-based image recognition using DCGAN",
+        "authors": ["Fang, W.", "Zhang, F.", "Sheng, V. S.", "Ding, Y."],
+        "year": 2018,
+        "doi": "https://doi.org/10.32604/cmc.2018.02356",
+        "references": []
+      },
+      {
+        "id": "paper6",
+        "title": "PlaNet - Photo geolocation with convolutional neural networks",
+        "authors": ["Weyand, T.", "Kostrikov, I.", "Philbin, J."],
+        "year": 2016,
+        "doi": "https://doi.org/10.1007/978-3-319-46484-8_3",
+        "references": []
+      },
+      {
+        "id": "paper7",
+        "title": "Automatic location detection based on deep learning",
+        "authors": ["Karangiya, A.", "Sharma, A.", "Shah, D.", "Badgujar, K.", "Thacker, C.", "Dave, D."],
+        "year": 2024,
+        "doi": "https://doi.org/10.48550/arXiv.2403.10912",
+        "references": []
+      },
+      {
+        "id": "paper8",
+        "title": "Vision and geolocation data combination for precise human detection and tracking in search and rescue operations",
+        "authors": ["Lygouras, E."],
+        "year": 2020,
+        "doi": "https://doi.org/10.4236/ijis.2020.103004",
+        "references": []
+      },
+      {
+        "id": "paper9",
+        "title": "Classification of Image using Convolutional Neural Network (CNN)",
+        "authors": ["Md. Anwar Hossain", "Md. Shahriar Alam Sajib"],
+        "year": 2019,
+        "doi": "https://gjcst.com/index.php/gjcst/article/view/476",
+        "references": []
+      },
+      {
+        "id": "paper10",
+        "title": "Artificial intelligence image recognition method based on convolutional neural network algorithm",
+        "authors": ["Tian, Y."],
+        "year": 2020,
+        "doi": "https://doi.org/10.1109/ACCESS.2020.3006097",
+        "references": []
+      }
+    ]
+  }
+  
