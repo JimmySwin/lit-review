@@ -86,9 +86,34 @@ define(function (require) {
     });
 
     $(document).ready(function () {
-        require('app/init_page').init();
-        window.update(true);
-        selectors.readQueryFromUrl();
+        require(['app/init_page', 'app/dataLoader'], function(initPage, dataLoader) {
+            initPage.init();
+            dataLoader.loadData(function(loadedData) {
+                console.log("Data loaded:", loadedData);  // Confirm data is loaded
+                displayPapers(loadedData.papers);  // Ensure this is called
+            });
+            window.update(true);
+            selectors.readQueryFromUrl();
+        });
     });
+    
 
 });
+
+function displayPapers(papers) {
+    console.log("Displaying papers:", papers);  // Confirm function is executed
+    var papersContainer = $('#papersContainer');
+    papersContainer.empty(); // Clear existing content
+
+    papers.forEach(function(paper) {
+        var paperContent = '<div>' +
+                           '<h3>' + paper.title + '</h3>' +
+                           '<p>Authors: ' + paper.authors.join(', ') + '</p>' +
+                           '<p>Year: ' + paper.year + '</p>' +
+                           '<a href="' + paper.doi + '">Link to DOI</a>' +
+                           '</div>';
+        papersContainer.append(paperContent);
+    });
+}
+
+
