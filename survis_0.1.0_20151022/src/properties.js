@@ -47,7 +47,7 @@ var tagCloudOptions = [{
  * If BibTeX entries (and tags) should be editable
  * @type {boolean}
  */
-var editable = false;
+var editable = true;
 
 /**
  * Subtitle describing the paper the data is referring to (set to null to deactivate)
